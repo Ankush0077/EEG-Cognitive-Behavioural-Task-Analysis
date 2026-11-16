@@ -1,0 +1,11 @@
+﻿set,A_R,A_G,A_B,B_R,B_G,B_B,jarPicture,colorSequence,txt_1,txt_2,txt_3,txt_4
+set0,-1,1,-1,-1,-1,0.09,stimuli/GB1.png,AAABAAAABA,85% green,15% blue,85% blue,15% green
+set1,-1,1,-1,1,1,-1,stimuli/GY2.png,AABAAABAAA,85% green,15% yellow,85% yellow,15% green
+set2,-1,-1,0.09,0,-1,-1,stimuli/BR1.png,AAABAAAABA,85% blue,15% red,85% red,15% blue
+set3,-1,1,-1,1,1,-1,stimuli/GY1.png,BAAAABAAAA,85% green,15% yellow,85% yellow,15% green
+set4,1,1,-1,0,-1,-1,stimuli/YR1.png,AAAABAABAA,85% yellow,15% red,85% red,15% yellow
+set5,1,1,-1,-1,-1,0.09,stimuli/YB1.png,AABAAABAAA,85% yellow,15% blue,85% blue,15% yellow
+set6,1,1,-1,0,-1,-1,stimuli/YR2.png,AAABAAAABA,85% yellow,15% red,85% red,15% yellow
+set7,1,1,-1,-1,-1,0.09,stimuli/YB1.png,BAAAABAAAA,85% yellow,15% blue,85% blue,15% yellow
+set8,0,-1,-1,-1,1,-1,stimuli/RG2.png,AAAABAABAA,85% red,15% green,85% green,15% red
+set9,1,1,-1,0,-1,-1,stimuli/YR1.png,AABAAABAAA,85% yellow,15% red,85% red,15% yellow

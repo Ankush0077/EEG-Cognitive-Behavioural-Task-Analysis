@@ -1,0 +1,3 @@
+﻿set,A_R,A_G,A_B,B_R,B_G,B_B,jarPicture,colorSequence,txt_1,txt_2,txt_3,txt_4
+T1,-1,1,-1,-1,-1,0.09,stimuli/GB1.png,AABAAAABAA,85% green,15% blue,85% blue,15% green
+T2,-1,1,-1,-1,-1,0.09,stimuli/GB1.png,AABAAAABAA,85% green,15% blue,85% blue,15% green

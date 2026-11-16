@@ -1,0 +1,1348 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': '', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="['stimuli/BR1.png', 'stimuli/BR2.png', 'stimuli/BR3.png', 'stimuli/BR5.png', 'stimuli/GB1.png', 'stimuli/GB2.png', 'stimuli/GB3.png', 'stimuli/GB4.png', 'stimuli/GB5.png', 'stimuli/GY1.png', 'stimuli/GY2.png', 'stimuli/GY3.png', 'stimuli/GY4.png', 'stimuli/GY5.png', 'stimuli/RG1.png', 'stimuli/RG2.png', 'stimuli/RG3.png', 'stimuli/RG4.png', 'stimuli/RG5.png', 'stimuli/Text.xcf', 'stimuli/YB1.png', 'stimuli/YB2.png', 'stimuli/YB3.png', 'stimuli/YB4.png', 'stimuli/YB5.png', 'stimuli/YR1.png', 'stimuli/YR2.png', 'stimuli/YR3.png', 'stimuli/YR4.png', 'stimuli/YR5.png', 'beads.png', 'beadsTaskConditions_num_en.csv', 'beadsTaskConditions_num_fr.csv', 'bundle.min.js', 'button.png']" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1680, 1050]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="beads-distractor" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="lang">
+      <RoutineSettingsComponent name="lang" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="lang" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_lang" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="/* &amp;#10;Use danfos to convert the data into dataframe&amp;#10;We will be able to make calculations on the data more easily&amp;#10;and in a clearer way for a future reading of the code.&amp;#10;The calculations are also similar to those with Python and Pandas,&amp;#10;so it is less work.&amp;#10;*/&amp;#10;&amp;#10;var danfosUrl = './bundle.min.js';&amp;#10;&amp;#10;function dynamicallyLoadScript(url) {&amp;#10;    var script = document.createElement(&quot;script&quot;);  // create a script DOM node&amp;#10;    script.src = url;  // set its src to the provided URL&amp;#10;&amp;#10;    document.head.appendChild(script);  // add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)&amp;#10;}&amp;#10;&amp;#10;dynamicallyLoadScript(danfosUrl);" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="import re&amp;#10;import pandas as pd&amp;#10;import os, ssl&amp;#10;import json&amp;#10;import datetime&amp;#10;&amp;#10;#Initialize starting date&amp;#10;startingDate = datetime.datetime.now().strftime(&quot;%Y-%m-%d %H:%M&quot;)&amp;#10;&amp;#10;#Set french or english variable to true when the language is selected&amp;#10;french = False&amp;#10;english = False&amp;#10;&amp;#10;trialConditions = &quot;&quot;&amp;#10;redcapVars = []&amp;#10;&amp;#10;#Remove illegal characters in participants' name to avoid errors in filenames&amp;#10;expInfo['participant'] = re.sub('[^\w_.)( -]', '', expInfo['participant'])&amp;#10;&amp;#10;#Load redcap variable&amp;#10;if not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None):&amp;#10;    try:&amp;#10;        ssl._create_default_https_context = ssl._create_unverified_context&amp;#10;        sheet_url = &quot;https://docs.google.com/spreadsheets/d/1HKhUnueu7nKidtb37oh2HPwGXNgj5b4i6DsxrUrUOCM/edit#gid=964834201&quot;&amp;#10;        url_1 = sheet_url.replace('/edit#gid=', '/export?format=csv&amp;gid=')&amp;#10;        dfRed = pd.read_csv(url_1)&amp;#10;        nbCol = 13 #Change it if we change the google sheet&amp;#10;        for i in range(1, nbCol):&amp;#10;            redcapVars.append(dfRed.iloc[0,i])&amp;#10;    except:&amp;#10;        print(&quot;An exception occurred. The redcap variables could not be found.&quot;)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="&amp;#10;// Initialize starting date&amp;#10;date1 = new Date().toLocaleString(&quot;en-US&quot;, {timeZone: &quot;America/New_York&quot;});&amp;#10;d = new Date(date1);&amp;#10;startingDate =  d.getFullYear() + &quot;-&quot; + (d.getMonth()+1) + &quot;-&quot; + d.getDate() + &quot; &quot; +&amp;#10;d.getHours() + &quot;:&quot; + d.getMinutes();&amp;#10;&amp;#10;//Initialize variables to change the color of highlighed rect&amp;#10;red = new util.Color(&quot;red&quot;);&amp;#10;&amp;#10;//Set french or english variable to true when the language is selected&amp;#10;french = false;&amp;#10;english = true;&amp;#10;&amp;#10;trialConditions = &quot;beadsTaskConditions_num_en.csv&quot;&amp;#10;redcapVars = [];&amp;#10;&amp;#10;//Remove illegal characters in participants' name to avoid errors in filenames&amp;#10;function CheckFilename(){&amp;#10;   expInfo['participant']= expInfo['participant'].replace(/([^.a-z0-9]+)/gi, '-');&amp;#10;}&amp;#10;&amp;#10;// Load redcap variables from Google Spreadsheet&amp;#10;function LoadRedcapVars(redcapVars){&amp;#10;    try {&amp;#10;        // Retrieve data between B2 and max range&amp;#10;        let url = &quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vR2HrrKB78yxkxRABtTlghA1reADPaQN32V5oJ2BbRXEZOhr8YrkGDZaIVZtjqNMXWTLzeG6-xRaEBl/pub?gid=964834201&amp;range=B2:AA2&amp;output=csv&quot;;&amp;#10;        var xmlhttp = new XMLHttpRequest();&amp;#10;        xmlhttp.onreadystatechange = function () {&amp;#10;            if (xmlhttp.readyState == 4) {&amp;#10;                let array = xmlhttp.responseText.split(',');&amp;#10;                for (let i = 0; i &lt; array.length; i++) {&amp;#10;                    redcapVars.push(array[i]);&amp;#10;                }&amp;#10;            }&amp;#10;        };&amp;#10;        xmlhttp.open(&quot;GET&quot;, url, true);&amp;#10;        xmlhttp.send(null);&amp;#10;        return redcapVars;&amp;#10;    }&amp;#10;    catch(err) {&amp;#10;        console.log(&quot;Erreur while loading Redcap variables&quot;, err.message);&amp;#10;    }&amp;#10;    &amp;#10;}&amp;#10;&amp;#10;CheckFilename();&amp;#10;redcapVars = LoadRedcapVars(redcapVars);" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="thisExp=psychoJS.experiment;&amp;#10;win=psychoJS.window;&amp;#10;event=psychoJS.eventManager;&amp;#10;Array.prototype.append = [].push;&amp;#10;count = 0;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="#Change the color of highlighed rect&amp;#10;if rect1.contains(mouse1):&amp;#10;    rect1.opacity=0.99&amp;#10;    txt_rect1.opacity=2&amp;#10;else:&amp;#10;    rect1.opacity = 0.73&amp;#10;    txt_rect1.opacity = 0.73&amp;#10;    &amp;#10;if rect2.contains(mouse1):&amp;#10;    rect2.opacity=0.99&amp;#10;    txt_rect2.opacity=2&amp;#10;else:&amp;#10;    rect2.opacity=0.73&amp;#10;    txt_rect2.opacity=0.73&amp;#10;    &amp;#10;#Function that is going to set the chosen language&amp;#10;if rect1.contains(mouse1) and mouse1.getPressed()[0] == 1:&amp;#10;        french = True&amp;#10;        trialConditions = &quot;beadsTaskConditions_num_fr.csv&quot;&amp;#10;&amp;#10;elif rect2.contains(mouse1) and mouse1.getPressed()[0] == 1:&amp;#10;        english = True&amp;#10;        trialConditions = &quot;beadsTaskConditions_num_en.csv&quot;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="//Change the color of highlighed rect&amp;#10;function HighlightRect(rec1, rec2, txt_rec1, txt_rec2, mouse) {&amp;#10;     if (rec1.contains(mouse)) {&amp;#10;        rec1.setOpacity(0.99);&amp;#10;        txt_rec1.setOpacity(2);&amp;#10;     } &amp;#10;    else{&amp;#10;        rec1.setOpacity(0.73);&amp;#10;        txt_rec1.setOpacity(0.73);&amp;#10;    }&amp;#10;     if (rec2.contains(mouse)) {&amp;#10;        rec2.setOpacity(0.99);&amp;#10;        txt_rec2.setOpacity(2);&amp;#10;     } &amp;#10;    else{&amp;#10;        rec2.setOpacity(0.73);&amp;#10;        txt_rec2.setOpacity(0.73);&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;//Function that is going to set the chosen language&amp;#10;//function SelectLanguage(rec1, rec2, mouse){&amp;#10;//    if (rec1.contains(mouse) &amp;&amp; mouse.getPressed()[0] === 1 ) {&amp;#10;//        french = true;&amp;#10;//        trialConditions = &quot;beadsTaskConditions_num_fr.csv&quot;;&amp;#10;//    }&amp;#10;//    else if (rec2.contains(mouse) &amp;&amp; mouse.getPressed()[0] === 1 ) {&amp;#10;//        english = true;&amp;#10;//        trialConditions = &quot;beadsTaskConditions_num_en.csv&quot;;&amp;#10;//    }&amp;#10;//}&amp;#10;&amp;#10;//HighlightRect(rect1,  rect2, txt_rect1, txt_rect2, mouse1);&amp;#10;//SelectLanguage(rect1,  rect2, mouse1);" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="thisExp.addData(&quot;Language&quot;, english===true ? &quot;en&quot; : &quot;fr&quot;);" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if english==True:&amp;#10;    thisExp.addData(&quot;Language&quot;, &quot;en&quot;)&amp;#10;else:&amp;#10;    thisExp.addData(&quot;Language&quot;, &quot;fr&quot;)" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_lang" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instr">
+      <RoutineSettingsComponent name="instr" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instr" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_JS" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="beadsImage = &quot;beads.png&quot;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="thisExp=psychoJS.experiment;&amp;#10;win=psychoJS.window;&amp;#10;event=psychoJS.eventManager;&amp;#10;Array.prototype.append = [].push;&amp;#10;&amp;#10;//We will change the pictures accordingly to the selected language&amp;#10;beadsImage = &quot;beads.png&quot;;&amp;#10;&amp;#10;//mouseImage = &quot;mouse_instr_en.png&quot;;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="//Change the text according to the selected language, function SetTxtInstr()&amp;#10;function SetTxtInstr(){&amp;#10;    &amp;#10;    if (count == 0){&amp;#10;        instructionstext.text = &quot;\nPractice Time!\nIn this experiment, you will see two jars, each with 100 colored beads.\n- Jar 1: 85% beads of one color (e.g., yellow), 15% of another color (e.g., red).\n- Jar 2: The colors are reversed — 85% of the second color, 15% of the first.\nOne jar will be randomly selected, but you won't know which.\n1. Draw a bead by clicking 'DRAW ANOTHER BEAD'.\n2. You can draw up to 10 beads before deciding.\n3. After each bead, you will be asked your confidence level — how confident are you in choosing the jar based on the beads you've drawn so far?\n4. Click 'MAKE A DECISION' to guess which jar the beads came from.\n5. After 10 beads or your decision, the trial will automatically move on.\nYour goal is to identify the jar by drawing beads, making a decision, and providing your confidence level. Good luck!&quot;&amp;#10;        beadsA_instr.text = &quot;\n\n85% yellow \n15% red&quot;;&amp;#10;        beadsB_instr.text = &quot;\n\n85% red \n15% yellow&quot;;&amp;#10;        //mouseImage = &quot;mouse_instr_en.png&quot;;&amp;#10;        txt_next_instr.text = &quot;NEXT&quot;;&amp;#10;&amp;#10;    }&amp;#10;    else if (count == 1)&amp;#10;    {&amp;#10;        instructionstext.text = &quot;\nTime to get serious now!\nIn this experiment, you will see two jars, each with 100 colored beads.\n- Jar 1: 85% beads of one color (e.g., yellow), 15% of another color (e.g., red).\n- Jar 2: The colors are reversed — 85% of the second color, 15% of the first.\nOne jar will be randomly selected, but you won't know which.\n1. Draw a bead by clicking 'DRAW ANOTHER BEAD'.\n2. You can draw up to 10 beads before deciding.\n3. After each bead, you will be asked your confidence level — how confident are you in choosing the jar based on the beads you've drawn so far?\n4. Click 'MAKE A DECISION' to guess which jar the beads came from.\n5. After 10 beads or your decision, the trial will automatically move on.\nYour goal is to identify the jar by drawing beads, making a decision, and providing your confidence level. Good luck!&quot;&amp;#10;        beadsA_instr.text = &quot;\n\n85% yellow \n15% red&quot;;&amp;#10;        beadsB_instr.text = &quot;\n\n85% red \n15% yellow&quot;;&amp;#10;        //mouseImage = &quot;mouse_instr_fr.png&quot;;&amp;#10;        txt_next_instr.text = &quot;NEXT&quot;;&amp;#10;    }&amp;#10;    &amp;#10;    else if (count == 2)&amp;#10;    {&amp;#10;        instructionstext.text = &quot;Alert: The jar ratios have changed! The proportion of beads in each jar has now shifted to 60% of one color and 40% of the other. However, all other conditions remain the same, including the scoring system. Keep going and maximize your score! Click on next to begin.&quot;&amp;#10;        beadsA_instr.text = &quot;\n\n60% yellow \n40% red&quot;;&amp;#10;        beadsB_instr.text = &quot;\n\n60% red \n40% yellow&quot;;&amp;#10;        //mouseImage = &quot;mouse_instr_fr.png&quot;;&amp;#10;        txt_next_instr.text = &quot;NEXT&quot;;&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;SetTxtInstr();&amp;#10;//hasResources = false;&amp;#10;&amp;#10;/* &amp;#10;TODO: load the resources here since the element in the builder is not working properly&amp;#10;psychoJS._serverManager.prepareResources([&amp;#10;{ name: (itemFile), path: (itemFile) }&amp;#10;]);&amp;#10;if (psychoJS.serverManager.getResourceStatus(core.ServerManager.ALL_RESOURCES) === core.ServerManager.ResourceStatus.DOWNLOADED&amp;#10;*/&amp;#10;&amp;#10;/*&amp;#10;psychoJS._serverManager.prepareResources([&amp;#10;{ name: (itemFile), path: (itemFile) }&amp;#10;]);&amp;#10;*/" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if english:&amp;#10;    instructionstext.text = instructionstext.text = &quot;In this task, you will be shown two jars full of 100 colored beads similar to those above. One jar will contain 85% beads in one color (in this case yellow), and 15% beads in another color (in this case red). The other jar will contain colored beads in the opposite ratio.\n \n For each trial, one of the jars will be randomly selected, but you will not be told which one. The computer will randomly draw beads from the selected jar. Your job is to decide which jar the beads are being drawn from. \n \nYou can request additional beads by clicking \&quot;Draw another bead\&quot;. If you think you know which jar was selected, click on \&quot;Make a decision\&quot;. You can continue requesting up to a certain number of beads until you feel confident about making a decision. Jars will not swap mid-game.\n \n Click on NEXT to begin.&quot;&amp;#10;    beadsA_instr.text = &quot;85% yellow \n15% red&quot;&amp;#10;    beadsB_instr.text = &quot;85% red \n15% yellow&quot;&amp;#10;    txt_next_instr.text = &quot;NEXT&quot;&amp;#10;else:&amp;#10;    instructionstext.text = &quot;Dans cet exercice, nous vous montrerons deux pots remplis de 100 billes colorées similaires à ceux ci-haut. Un pot contiendra 85% de billes d’une seule couleur (dans ce cas-ci, jaune) et 15% de billes d’une autre couleur (dans ce cas-ci, rouge). L’autre pot contiendra des billes colorées dans le ratio opposé.\n \n Pour chaque essai, un des pots sera sélectionné au hasard et vous ne saurez pas lequel. L’ordinateur va piger des billes dans le pot sélectionné. Votre tâche est de décider de quel pot sont pigées les billes. \n \nVous pouvez demander des billes supplémentaires en cliquant sur \&quot;Piger une autre bille\&quot;. Si vous pensez savoir de quel pot proviennent les billes, cliquez sur \&quot;Faire votre choix\&quot;. Vous pouvez continuer de demander des billes jusqu’à un certain nombre pour que vous vous sentiez confiant de votre décision. Les pots ne seront pas échangés au milieu du jeu.\n \n Cliquez sur SUIVANT pour commencer.&quot;&amp;#10;    beadsA_instr.text = &quot;85% jaune \n15% rouge&quot;&amp;#10;    beadsB_instr.text = &quot;85% rouge \n15% jaune&quot;&amp;#10;    txt_next_instr.text = &quot;SUIVANT&quot;&amp;#10;&amp;#10;hasResources = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# Change the color of highlighed rect&amp;#10;if next_instr.contains(mouse_instr):&amp;#10;    next_instr.setOpacity(0.99)&amp;#10;    txt_next_instr.setOpacity(2)&amp;#10;else:&amp;#10;    next_instr.setOpacity(0.73)&amp;#10;    txt_next_instr.setOpacity(0.73)" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="//Change the color of highlighed rect&amp;#10;function HighlightRect(rec1, txt_rec1, mouse) {&amp;#10;     if (rec1.contains(mouse)) {&amp;#10;        rec1.setOpacity(0.99);&amp;#10;        txt_rec1.setOpacity(2);&amp;#10;     } &amp;#10;    else{&amp;#10;        rec1.setOpacity(0.73);&amp;#10;        txt_rec1.setOpacity(0.73);&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;HighlightRect(next_instr, txt_next_instr, mouse_instr);&amp;#10;&amp;#10;/*&amp;#10;if (resources.status == FINISHED){&amp;#10;    hasResources = true;&amp;#10;}&amp;#10;*/" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="count = count + 1;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_JS" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="beads_instr" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$beadsImage" valType="str" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="beads_instr" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0.36)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="[0.39,0.25]" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="beadsA_instr" plugin="None">
+        <Param val="$[-1,-1,-1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.018" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="beadsA_instr" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(-0.112, 0.260)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="85% yellow&amp;#10;15% red" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="beadsB_instr" plugin="None">
+        <Param val="$[-1,-1,-1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.018" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="beadsB_instr" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0.105, 0.260)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="85% red&amp;#10;15% yellow" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="instructionstext" plugin="None">
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.029" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="instructionstext" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -0.085)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="In this task, you will be shown two jars full of 100 colored beads similar to those above. One jar will contain 85% beads in one color (in this case yellow), and 15% beads in another color (in this case red). The other jar will contain colored beads in the opposite ratio.&amp;#10;For each trial, one of the jars will be randomly selected, but you will not be told which one. The computer will randomly draw beads from the selected jar. Your job is to decide which jar the beads are being drawn from. Click the left mouse button to draw another bead and the right mouse button to make a decision.&amp;#10;You can continue requesting up to a certain number of beads until you feel confident about making a decision. Jars will not swap mid-game.&amp;#10;Click on next to begin.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="next_instr" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="button.png" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="next_instr" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -0.454)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.25, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="txt_next_instr" plugin="None">
+        <Param val="$[-1,-1,-1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.023" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="txt_next_instr" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="next_instr.pos" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="NEXT" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse_instr" plugin="None">
+        <Param val="next_instr" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_instr" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name" valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="routine" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <ResourceManagerComponent name="resources" plugin="None">
+        <Param val="Start and Check" valType="str" updates="None" name="actionType"/>
+        <Param val="True" valType="bool" updates="None" name="checkAll"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="resources" valType="code" updates="None" name="name"/>
+        <Param val="[]" valType="list" updates="constant" name="resources"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+      </ResourceManagerComponent>
+    </Routine>
+    <Routine name="iti">
+      <RoutineSettingsComponent name="iti" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="iti" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_iti" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Avoid displaying the fixation cross if we finished displaying the trials&amp;#10;if trials.nRemaining == 0:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_iti" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <PolygonComponent name="polygon" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[-1,-1,-1]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="polygon" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="thanks">
+      <RoutineSettingsComponent name="thanks" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="thanks" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_thx" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="&amp;#10;//Change the text according to the selected language, function SetTxtThx()&amp;#10;function SetTxtThx(){&amp;#10;    if (english){&amp;#10;        thx.text = &quot;Thank you for your participation!&quot;;&amp;#10;    }&amp;#10;    else{&amp;#10;        thx.text = &quot;Merci de votre participation!&quot;;&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;// Compute additional scores, save them to the data file and send them to Redcap&amp;#10;function GetData(){&amp;#10;    try{&amp;#10;        let data = thisExp._trialsData;&amp;#10;        &amp;#10;        /* Make array objects all have the same keys */&amp;#10;        let defaults = { &quot;Language&quot; : &quot;&quot;, &quot;participant&quot; : &quot;&quot;, &quot;date&quot; : &quot;&quot;, &quot;session&quot;: &quot;&quot;, &quot;expName:&quot;:&quot;&quot;, &quot;psychopyVersion&quot;: &quot;&quot;, &quot;OS&quot;: &quot;&quot;, &quot;frameRate&quot;: &quot;&quot;, &quot;mouse_instr.x&quot; : &quot;&quot;, &amp;#10;        &quot;mouse_instr.y&quot; : &quot;&quot;, &quot;mouse_instr.leftButton&quot; : &quot;&quot;, &quot;mouse_instr.midButton&quot; : &quot;&quot;, &quot;mouse_instr.rightButton&quot; : &quot;&quot;, &quot;mouse_instr.time&quot;: &quot;&quot;, &amp;#10;        &quot;mouse_instr.clicked_name&quot;: &quot;&quot;, &quot;currentTrial&quot;: &quot;&quot;, &quot;Target_Distractor&quot; : &quot;&quot;, &quot;Decision_jar&quot; : &quot;&quot;, &quot;DTD&quot; : &quot;&quot;, &quot;Match&quot; : &quot;&quot;, &quot;rating.rt&quot;: &quot;&quot;, &quot;rating.response&quot;: &quot;&quot;, &quot;rating.history&quot;: &quot;&quot;};&amp;#10;        data = $.map( data, function( item ){&amp;#10;            return $.extend( {}, defaults, item ); &amp;#10;        });&amp;#10;        &amp;#10;        // Rename &quot;index&quot; key to avoid errors&amp;#10;        data = data.map(elem =&gt; {&amp;#10;            elem.given_index = elem.index;&amp;#10;            delete elem.index;&amp;#10;            return elem;&amp;#10;        });&amp;#10;        &amp;#10;        // Create all the variables we will need&amp;#10;        let data2 = [&quot;beads_orig_dtd&quot;, &quot;beads_orig_match&quot;, &quot;beads_orig_trial_duration&quot;, &amp;#10;        &quot;beads_orig_confidence_rating&quot;, &quot;beads_targ_dtd&quot;, &quot;beads_targ_match&quot;,&quot;beads_targ_confidence_rating&quot;];&amp;#10;        &amp;#10;        for (let i = 0; i &lt; data2.length; i++) {&amp;#10;            data[data2[i]] = &quot;&quot;;&amp;#10;        }&amp;#10;        &amp;#10;        // Create our dataframe where we will compute all the values&amp;#10;        &amp;#10;        let df1 = new dfd.DataFrame(data);&amp;#10;        &amp;#10;        let df1_orig = df1.loc({&amp;#10;            rows: df1[&quot;currentTrial&quot;].eq(1)&amp;#10;        });&amp;#10;        df1_orig.resetIndex({ inplace: true });&amp;#10;&amp;#10;        // We will now compute the scores&amp;#10;        let df1_target = df1.loc({&amp;#10;            rows: df1[&quot;currentTrial&quot;].gt(1).and(df1[&quot;Target_Distractor&quot;].eq(&quot;Target&quot;))&amp;#10;        });&amp;#10;        df1_target.resetIndex({ inplace: true });&amp;#10;        &amp;#10;        // Select rows where decision_jar is not empty so that it won't perturn following means&amp;#10;        let df1_target_valid = df1_target.loc({&amp;#10;            rows: df1_target[&quot;Decision_jar&quot;].ne(&quot;&quot;)&amp;#10;        });&amp;#10;        df1_target_valid.resetIndex({ inplace: true });&amp;#10;        &amp;#10;        // Compute means only when it is possible and we don't have empty values&amp;#10;        df1[&quot;beads_orig_dtd&quot;] = df1_orig[&quot;DTD&quot;].values[0];&amp;#10;        df1[&quot;beads_orig_match&quot;] = df1_orig[&quot;Match&quot;].values[0];&amp;#10;        df1[&quot;beads_orig_trial_duration&quot;] = df1_orig[&quot;rating.rt&quot;].values[0];&amp;#10;        df1[&quot;beads_orig_confidence_rating&quot;] = df1_orig[&quot;rating.response&quot;].values[0];&amp;#10;        df1[&quot;beads_targ_dtd&quot;] = (df1_target[&quot;DTD&quot;]==null || df1_target[&quot;DTD&quot;].$data.length == 0) ? &quot;&quot; : df1_target[&quot;DTD&quot;].mean();&amp;#10;        df1[&quot;beads_targ_match&quot;] = (df1_target[&quot;Match&quot;]==null || df1_target[&quot;Match&quot;].$data.length == 0) ? &quot;&quot; : df1_target[&quot;Match&quot;].mean();&amp;#10;        df1[&quot;beads_targ_trial_duration&quot;] = (df1_target_valid[&quot;rating.rt&quot;]==null || df1_target_valid[&quot;rating.rt&quot;].$data.length == 0) ? &quot;&quot; : df1_target_valid[&quot;rating.rt&quot;].mean();&amp;#10;        df1[&quot;beads_targ_confidence_rating&quot;] = (df1_target_valid[&quot;rating.response&quot;]==null || df1_target_valid[&quot;rating.response&quot;].$data.length == 0) ? &quot;&quot; : df1_target_valid[&quot;rating.response&quot;].mean();&amp;#10;        &amp;#10;        //df1.print();&amp;#10;        //console.log(&quot;df1 orig: &quot;, df1_orig);&amp;#10;        //console.log(&quot;df1 target: &quot;, df1_target);&amp;#10;        //console.log(&quot;df1_target_valid: &quot;, df1_target_valid);&amp;#10;        //console.log(&quot;dataframe: &quot;, df1);&amp;#10;        &amp;#10;        let taskVersion = &quot;Online_v3.0.2&quot;; // Version of the task&amp;#10;        &amp;#10;        const exp_name = &quot;BEADS&quot;;&amp;#10;        &amp;#10;        df1[&quot;date_exp&quot;] = startingDate;&amp;#10;        df1[&quot;task_version&quot;] = taskVersion;&amp;#10;        &amp;#10;        // Save dataframe inside the logfile&amp;#10;        psychoJS.experiment.addData('date_exp', df1[&quot;date_exp&quot;]);&amp;#10;        psychoJS.experiment.addData('task_version', df1[&quot;task_version&quot;]);&amp;#10;        psychoJS.experiment.addData('beads_orig_dtd', df1[&quot;beads_orig_dtd&quot;]);&amp;#10;        psychoJS.experiment.addData('beads_orig_match', df1[&quot;beads_orig_match&quot;]);&amp;#10;        psychoJS.experiment.addData('beads_orig_trial_duration', df1[&quot;beads_orig_trial_duration&quot;]);&amp;#10;        psychoJS.experiment.addData('beads_orig_confidence_rating', df1[&quot;beads_orig_confidence_rating&quot;]);&amp;#10;        psychoJS.experiment.addData('beads_targ_dtd', df1[&quot;beads_targ_dtd&quot;]);&amp;#10;        psychoJS.experiment.addData('beads_targ_match', df1[&quot;beads_targ_match&quot;]);&amp;#10;        psychoJS.experiment.addData('beads_targ_trial_duration', df1[&quot;beads_targ_trial_duration&quot;]);&amp;#10;        psychoJS.experiment.addData('beads_targ_confidence_rating', df1[&quot;beads_targ_confidence_rating&quot;]);&amp;#10;        return df1;&amp;#10;    }&amp;#10;    catch(err) {&amp;#10;      console.log(&quot;Error while computing the scores.&quot;);&amp;#10;      dumpError(err);&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;function REDCapImportRecord(df1) {&amp;#10;    try{&amp;#10;      const url = 'https://portal.rimuhc.ca/cim/redcap/api/';&amp;#10;      let testdata;&amp;#10;      // Warning: If we add or remove columns in the Google file, we must also change the variables here&amp;#10;      testdata = [{&amp;#10;                record_id: df1.loc({rows: [0], columns: [&quot;participant&quot;]}).values[0][0],&amp;#10;                [redcapVars[1]]: df1.loc({rows: [0], columns: [&quot;session&quot;]}).values[0][0],&amp;#10;                [redcapVars[2]]: df1[&quot;date_exp&quot;],&amp;#10;                [redcapVars[3]]: df1[&quot;task_version&quot;],&amp;#10;                [redcapVars[4]]: df1[&quot;beads_orig_dtd&quot;],&amp;#10;                [redcapVars[5]]: df1[&quot;beads_orig_match&quot;],&amp;#10;                [redcapVars[6]]: df1[&quot;beads_orig_trial_duration&quot;],&amp;#10;                [redcapVars[7]]: df1[&quot;beads_orig_confidence_rating&quot;],&amp;#10;                [redcapVars[8]]: df1[&quot;beads_targ_dtd&quot;],&amp;#10;                [redcapVars[9]]: df1[&quot;beads_targ_match&quot;],&amp;#10;                [redcapVars[10]]: df1[&quot;beads_targ_trial_duration&quot;],&amp;#10;                [redcapVars[11]]: df1[&quot;beads_targ_confidence_rating&quot;]&amp;#10;      }];&amp;#10;      &amp;#10;      testdata = JSON.stringify(testdata);&amp;#10;      //console.log(&quot;testdata: &quot;, testdata);&amp;#10;&amp;#10;      const body = new FormData();&amp;#10;      body.append('token', redcapVars[0]);&amp;#10;      body.append('content', 'record');&amp;#10;      body.append('format', 'json');&amp;#10;      body.append('overwriteBehavior', 'normal');&amp;#10;      body.append('data', testdata);&amp;#10;      body.append('returnContent', 'ids');&amp;#10;&amp;#10;      const params = {&amp;#10;        method: 'POST',&amp;#10;        body,&amp;#10;      }&amp;#10;&amp;#10;    return fetch(url, params)&amp;#10;      .then(data =&gt; {&amp;#10;        console.log('fetch data: ', data)&amp;#10;      })&amp;#10;      .catch(error =&gt; console.log('Error: ', error))&amp;#10; &amp;#10;    }&amp;#10;    catch(err) {&amp;#10;        console.log(&quot;Error while sending data to redcap: &quot;);&amp;#10;        dumpError(err);&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;function dumpError(err) {&amp;#10;  if (typeof err === 'object') {&amp;#10;    if (err.message) {&amp;#10;      console.log('\nMessage: ' + err.message);&amp;#10;    }&amp;#10;    if (err.stack) {&amp;#10;      console.log('\nStacktrace:');&amp;#10;      console.log('====================');&amp;#10;      console.log(err.stack);&amp;#10;    }&amp;#10;  } else {&amp;#10;    console.log('dumpError :: argument is not an object');&amp;#10;  }&amp;#10;}&amp;#10;&amp;#10;//Call functions&amp;#10;SetTxtThx();&amp;#10;var res = GetData();&amp;#10;REDCapImportRecord(res);" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import traceback&amp;#10;&amp;#10;#Change the text according to the selected language, function SetTxtInstr2()&amp;#10;if english:&amp;#10;    thx.text = &quot;Thank you for your participation!&quot;&amp;#10;else:&amp;#10;    thx.text = &quot;Merci de votre participation!&quot;&amp;#10;&amp;#10;#Get Data&amp;#10;try:&amp;#10;    df1 = pd.DataFrame.from_dict(thisExp.getAllEntries())&amp;#10;&amp;#10;    # Create all the variables we will need&amp;#10;    df1 = df1.assign(beads_orig_dtd=&quot;&quot;, beads_orig_match=&quot;&quot;, &amp;#10;    beads_orig_trial_duration=&quot;&quot;, beads_orig_confidence_rating=&quot;&quot;, &amp;#10;    beads_targ_dtd=&quot;&quot;, beads_targ_match=&quot;&quot;, &amp;#10;    beads_targ_trial_duration=&quot;&quot;, beads_targ_confidence_rating=&quot;&quot;)&amp;#10;    &amp;#10;    #Select first trial that is a testing one&amp;#10;    df1_orig = df1.query('currentTrial == 1')&amp;#10;    df1_orig.reset_index(drop=True, inplace=True) #indexing was a concern in some calculations.&amp;#10;    &amp;#10;    #We will now compute the scores&amp;#10;    df1[&quot;beads_orig_dtd&quot;] = df1_orig[&quot;DTD&quot;]&amp;#10;    df1[&quot;beads_orig_match&quot;] = df1_orig[&quot;Match&quot;]&amp;#10;    df1[&quot;beads_orig_trial_duration&quot;] = df1_orig['rating.rt']&amp;#10;    df1[&quot;beads_orig_confidence_rating&quot;] = df1_orig[&quot;rating.response&quot;]&amp;#10;&amp;#10;    #Select target trials&amp;#10;    df1_target = df1.query('currentTrial &gt; 1 and Target_Distractor == &quot;Target&quot;')&amp;#10;    df1_target.reset_index(drop=True, inplace=True)&amp;#10;    &amp;#10;    df1[&quot;beads_targ_dtd&quot;] = df1_target['DTD'].mean()&amp;#10;    df1[&quot;beads_targ_match&quot;] = df1_target['Match'].mean()&amp;#10;    &amp;#10;    #Remove rows where decision_jar is empty so that it won't perturn following means&amp;#10;    clean_df1_target = df1_target[df1_target.Decision_jar != &quot;&quot;]&amp;#10;    clean_df1_target.reset_index(drop=True, inplace=True)&amp;#10;    &amp;#10;    df1[&quot;beads_targ_trial_duration&quot;] = clean_df1_target['rating.rt'].mean()&amp;#10;    df1[&quot;beads_targ_confidence_rating&quot;] = clean_df1_target['rating.response'].mean()&amp;#10;&amp;#10;    # Remove nan values if we have any (e.g., no orig confidence rating)&amp;#10;    df1 = df1.fillna('')&amp;#10;&amp;#10;    # Save task version and date&amp;#10;    taskVersion = &quot;Offline_v3.0.2&quot;&amp;#10;    df1[&quot;date_exp&quot;] = startingDate&amp;#10;    df1[&quot;task_version&quot;] = taskVersion&amp;#10;    &amp;#10;    #print(&quot;df1&quot;, df1.to_string().encode('utf-8'))&amp;#10;    #print(&quot;columns &quot;, df1.columns)&amp;#10;    #print(&quot;df1 size: &quot;, df1.size)&amp;#10;&amp;#10;    thisExp.addData('date_exp', df1[&quot;date_exp&quot;].iloc[0])&amp;#10;    thisExp.addData('task_version', df1[&quot;task_version&quot;].iloc[0])&amp;#10;    thisExp.addData('beads_orig_dtd', df1[&quot;beads_orig_dtd&quot;].iloc[0])&amp;#10;    thisExp.addData('beads_orig_match', df1[&quot;beads_orig_match&quot;].iloc[0])&amp;#10;    thisExp.addData('beads_orig_trial_duration', df1[&quot;beads_orig_trial_duration&quot;].iloc[0])&amp;#10;    thisExp.addData('beads_orig_confidence_rating', df1[&quot;beads_orig_confidence_rating&quot;].iloc[0])&amp;#10;    thisExp.addData('beads_targ_dtd', df1[&quot;beads_targ_dtd&quot;].iloc[0])&amp;#10;    thisExp.addData('beads_targ_match', df1[&quot;beads_targ_match&quot;].iloc[0])&amp;#10;    thisExp.addData('beads_targ_trial_duration', df1[&quot;beads_targ_trial_duration&quot;].iloc[0])&amp;#10;    thisExp.addData('beads_targ_confidence_rating', df1[&quot;beads_targ_confidence_rating&quot;].iloc[0])&amp;#10;except Exception:&amp;#10;    print(&quot;An exception occurred. Error while computing scores.&quot;)&amp;#10;    traceback.print_exc()&amp;#10;    &amp;#10;# Send data to redcap&amp;#10;try:&amp;#10;    import requests, hashlib&amp;#10;    # Transform data to JSON Format&amp;#10;    # If we add or remove columns in the Google file, we must also change the variables here&amp;#10;    myDict = {}&amp;#10;    myDict[&quot;record_id&quot;] = df1['participant'].iloc[0]&amp;#10;    myDict[redcapVars[1]] = df1['session'].iloc[0]&amp;#10;    myDict[redcapVars[2]] = df1['date_exp'].iloc[0]&amp;#10;    myDict[redcapVars[3]] = df1['task_version'].iloc[0]&amp;#10;    myDict[redcapVars[4]] = df1['beads_orig_dtd'].iloc[0]&amp;#10;    myDict[redcapVars[5]] = df1['beads_orig_match'].iloc[0]&amp;#10;    myDict[redcapVars[6]] = df1['beads_orig_trial_duration'].iloc[0]&amp;#10;    myDict[redcapVars[7]] = df1['beads_orig_confidence_rating'].iloc[0]&amp;#10;    myDict[redcapVars[8]] = df1['beads_targ_dtd'].iloc[0]&amp;#10;    myDict[redcapVars[9]] = df1['beads_targ_match'].iloc[0]&amp;#10;    myDict[redcapVars[10]] = df1['beads_targ_trial_duration'].iloc[0]&amp;#10;    myDict[redcapVars[11]] = df1['beads_targ_confidence_rating'].iloc[0]&amp;#10;    &amp;#10;    data_to_send = [myDict]&amp;#10;    &amp;#10;    #print(&quot;data to send: &quot;, data_to_send)&amp;#10;    &amp;#10;    url = 'https://portal.rimuhc.ca/cim/redcap/api/'&amp;#10;    redcap_data = {&amp;#10;        'token': redcapVars[0],&amp;#10;        'content': 'record',&amp;#10;        'format': 'json',&amp;#10;        'type': 'flat',&amp;#10;        'overwriteBehavior': 'normal',&amp;#10;        'forceAutoNumber': 'false',&amp;#10;        'data': json.dumps(data_to_send),&amp;#10;        'returnContent': 'ids',&amp;#10;        'returnFormat': 'json',&amp;#10;        'record_id': hashlib.sha1().hexdigest()[:16]&amp;#10;    }&amp;#10;    x = requests.post(url, data = redcap_data)&amp;#10;    print(x.text)&amp;#10;    print(&quot;Data sent to redcap.&quot;)&amp;#10;except Exception:&amp;#10;    print(&quot;An exception occurred. Error while sending data to redcap.&quot;)&amp;#10;    traceback.print_exc()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_thx" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="thx" plugin="None">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="thx" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for participating!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="col = 'black'&amp;#10;currentTrial = 1" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="preventClick = function (event) { event.preventDefault(); }&amp;#10;document.addEventListener(&quot;contextmenu&quot;, preventClick, event, false);&amp;#10;col = new util.Color('black');&amp;#10;currentTrial = 1;&amp;#10;score = 0;&amp;#10;&amp;#10;//Decision jar that will be equal to the jar chosen by the participant&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="//declare variables&amp;#10;mouse_clicked = false;&amp;#10;select_decide = false;&amp;#10;jarpic = jarPicture;&amp;#10;ratingClick = 0;&amp;#10;ratingstart = true;&amp;#10;ratingstart1 = false;&amp;#10;ratingdone = false;&amp;#10;beadnum = 0;&amp;#10;beads = [bead1, bead2, bead3, bead4, bead5, bead6, bead7, bead8, bead9, bead10];&amp;#10;beadcolours = [];&amp;#10;true_jar = &quot;jarA&quot;;&amp;#10;rating_is_initialized = false;&amp;#10;confidenceRatings = [];&amp;#10;decision_jar = &quot;&quot;;&amp;#10;&amp;#10;//Jars texts&amp;#10;colorA_1 = txt_1;&amp;#10;colorA_2 = txt_2;&amp;#10;colorB_1 = txt_3;&amp;#10;colorB_2 = txt_4;&amp;#10;&amp;#10;//define slider marker and colour&amp;#10;rating = new visual.Slider({&quot;win&quot;: win, &quot;name&quot;: &quot;rating&quot;, &quot;size&quot;: [1.0, 0.05], &quot;pos&quot;: [0, (- 0.35)], &quot;labels&quot;: [&quot;0&quot;, &quot;100&quot;], &quot;ticks&quot;: [0, 100], &quot;granularity&quot;: 0, &quot;style&quot;: [&quot;rating&quot;], &quot;color&quot;: [0.65, 0.65, 0.65], &quot;markerColor&quot;: [-1, -1, -1], &quot;font&quot;: &quot;Arial&quot;, &quot;flip&quot;: false, &quot;labelHeight&quot;: 0.1});&amp;#10;rating.size[1] = rating.size[1] / 2;&amp;#10;markerSize = util.to_px(rating.size, 'height', psychoJS.window)[1];&amp;#10;&amp;#10;//randomize beads and colours&amp;#10;if ((Math.random() &gt; 0.5)) {&amp;#10;    true_jar = &quot;jarB&quot;;&amp;#10;    [A_R, A_G, A_B, B_R, B_G, B_B] = [B_R, B_G, B_B, A_R, A_G, A_B];&amp;#10;}&amp;#10;for (var i = 0, _pj_a = beads.length; (i &lt; _pj_a); i += 1) {&amp;#10;    if ((colorSequence[i] === &quot;A&quot;)) {&amp;#10;        beadcolours.append([A_R,A_G,A_B]);&amp;#10;    } else {&amp;#10;        if ((colorSequence[i] === &quot;B&quot;)) {&amp;#10;            beadcolours.append([B_R,B_G,B_B]);&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;finalColor = [A_R,A_G,A_B]&amp;#10;jiggleColors = [&amp;#10;  [A_R,A_G,A_B],&amp;#10;  [B_R,B_G,B_B],&amp;#10;];&amp;#10;&amp;#10;jiggleActive = false;&amp;#10;jiggleIndex = 0;&amp;#10;jiggleFrames = 0;&amp;#10;jiggleDuration = 90;  // 2 seconds at 60 FPS&amp;#10;&amp;#10;//Change the text according to the selected language&amp;#10;function SetTxtTrial(){&amp;#10;    if (english){&amp;#10;        ratingtext.text = &quot;From which jar were the beads drawn?&quot;;&amp;#10;        jarAtext.text = &quot;JAR A&quot;;&amp;#10;        jarBtext.text = &quot;JAR B&quot;;&amp;#10;        scaletext.text = &quot;Please indicate your degree of confidence:&quot;;&amp;#10;        text_draw.text = &quot;DRAW ANOTHER BEAD&quot;;&amp;#10;        text_decide.text = &quot;MAKE A DECISION&quot;;&amp;#10;    }&amp;#10;    else{&amp;#10;        ratingtext.text = &quot;De quel pot viennent les billes?&quot;;&amp;#10;        jarAtext.text = &quot;POT A&quot;;&amp;#10;        jarBtext.text = &quot;POT B&quot;;&amp;#10;        scaletext.text = &quot;S’il vous plaît, veuillez évaluer votre degré de confiance :&quot;;&amp;#10;        text_draw.text = &quot;PIGER UNE AUTRE BILLE&quot;;&amp;#10;        text_decide.text = &quot;FAIRE VOTRE CHOIX&quot;;&amp;#10;    }&amp;#10;}&amp;#10;SetTxtTrial();" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import random&amp;#10;&amp;#10;#declare variables&amp;#10;mouse_clicked = False&amp;#10;select_decide = False&amp;#10;jarpic = jarPicture&amp;#10;ratingClick = 0&amp;#10;ratingstart = False&amp;#10;ratingdone = False&amp;#10;beadnum = 1&amp;#10;beads = [bead1, bead2, bead3, bead4, bead5, bead6, bead7, bead8, bead9, bead10]&amp;#10;beadcolours = []&amp;#10;true_jar = &quot;jarA&quot;&amp;#10;rating_is_initialized = False&amp;#10;decision_jar = &quot;&quot;&amp;#10;&amp;#10;#Jars texts&amp;#10;colorA_1 = txt_1&amp;#10;colorA_2 = txt_2&amp;#10;colorB_1 = txt_3&amp;#10;colorB_2 = txt_4&amp;#10;&amp;#10;beadstxtA.text = colorA_1 +'\n'+colorA_2&amp;#10;beadstxtB.text = colorB_1 +'\n'+colorB_2&amp;#10;&amp;#10;#define slider marker and colour&amp;#10;rating = visual.Slider(win=win, name='rating', size=(1.0, 0.05), pos=(0, -0.35), labels=(&quot;0%&quot;, &quot;100%&quot;), ticks=(0, 100), granularity=0, style=(&quot;rating&quot;), color=(0.65, 0.65, 0.65), font='Arial', flip = False, labelHeight= 0.05)&amp;#10;#rating.size[1] = rating.size[1] / 2;&amp;#10;&amp;#10;#randomize beads and colours&amp;#10;if random.random() &gt; 0.5:&amp;#10;    true_jar = &quot;jarB&quot;&amp;#10;    [A_R, A_G, A_B, B_R, B_G, B_B] = [B_R, B_G, B_B, A_R, A_G, A_B]&amp;#10;    &amp;#10;for i in range(0, len(beads)):&amp;#10;    if colorSequence[i] == &quot;A&quot;:&amp;#10;        beadcolours.append([A_R,A_G,A_B])&amp;#10;    elif colorSequence[i] == &quot;B&quot;:&amp;#10;        beadcolours.append([B_R,B_G,B_B])&amp;#10;    i += 1&amp;#10;&amp;#10;#Change the text according to the selected language&amp;#10;if english:&amp;#10;    ratingtext.text = &quot;From which jar were the beads drawn?&quot;&amp;#10;    jarAtext.text = &quot;JAR A&quot;&amp;#10;    jarBtext.text = &quot;JAR B&quot;&amp;#10;    scaletext.text = &quot;Please indicate your degree of confidence:&quot;&amp;#10;    text_draw.text = &quot;DRAW ANOTHER BEAD&quot;&amp;#10;    text_decide.text = &quot;MAKE A DECISION&quot;&amp;#10;else:&amp;#10;    ratingtext.text = &quot;De quel pot viennent les billes?&quot;&amp;#10;    jarAtext.text = &quot;POT A&quot;&amp;#10;    jarBtext.text = &quot;POT B&quot;&amp;#10;    scaletext.text = &quot;S’il vous plaît, veuillez évaluer votre degré de confiance :&quot;&amp;#10;    text_draw.text = &quot;PIGER UNE AUTRE BILLE&quot;&amp;#10;    text_decide.text = &quot;FAIRE VOTRE CHOIX&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="#first bead appears right away&amp;#10;bead1.setColor(beadcolours[1])&amp;#10;&amp;#10;#modify slider marker and colour&amp;#10;if rating_is_initialized == False:&amp;#10;    try:&amp;#10;        rating.marker.setColor(col, colorSpace='rgb')&amp;#10;        rating._barSize = (1, 0.01)&amp;#10;        rating._onChange(True)()&amp;#10;        rating._setupSlider()&amp;#10;    except:&amp;#10;        print(&quot;An exception while modifying slider&quot;)&amp;#10;    rating_is_initialized = True&amp;#10;&amp;#10;#display rating value&amp;#10;if rating.markerPos != 0 and rating.markerPos != None:&amp;#10;    rating_value.text = str(int(round(rating.markerPos)))&amp;#10;&amp;#10;#show jar selection&amp;#10;if select_decide == True and ratingdone == False and (mouse.getPressed()[0] == True and jarA.contains(mouse)):&amp;#10;    decision_jar = &quot;jarA&quot;&amp;#10;    ratingstart = True&amp;#10;&amp;#10;if select_decide == True and ratingdone == False and (mouse.getPressed()[0] == True and jarB.contains(mouse)):&amp;#10;    decision_jar = &quot;jarB&quot;&amp;#10;    ratingstart = True&amp;#10;    &amp;#10;#As soon as the rating of the confidence is done, the participants can no longer change the selected jar&amp;#10;if rating.getRating() != None:&amp;#10;    ratingdone = True&amp;#10;    &amp;#10;#move to next trial after rating + 1 second (allow for change in ratings within 1 second)&amp;#10;if rating.getRating() != None and routineTimer.getTime() &gt; rating.getRT() + 1 and rating.getRating() == rating.markerPos:&amp;#10;    continueRoutine = False&amp;#10;&amp;#10;#Change the color of highlighed rect&amp;#10;if rect_draw.contains(mouse):&amp;#10;    rect_draw.opacity = 0.99&amp;#10;    text_draw.opacity = 2&amp;#10;else:&amp;#10;    rect_draw.opacity = 0.73&amp;#10;    text_draw.opacity = 0.73&amp;#10;if rect_decide.contains(mouse):&amp;#10;    rect_decide.opacity = 0.99&amp;#10;    text_decide.opacity = 2&amp;#10;else:&amp;#10;    rect_decide.opacity = 0.73&amp;#10;    text_decide.opacity = 0.73&amp;#10;&amp;#10;#Change the color of highlighed rect. We won't highligh if participant can not rate anymore &amp;#10;if ratingdone == False:&amp;#10;    if jarA.contains(mouse):&amp;#10;        jarA.opacity = 0.99&amp;#10;        jarAtext.opacity = 2&amp;#10;    else:&amp;#10;        jarA.opacity = 0.73&amp;#10;        jarAtext.opacity = 0.73&amp;#10;    if jarB.contains(mouse):&amp;#10;        jarB.opacity = 0.99&amp;#10;        jarBtext.opacity = 2&amp;#10;    else:&amp;#10;        jarB.opacity = 0.73&amp;#10;        jarBtext.opacity = 0.73&amp;#10;&amp;#10;if select_decide == False and rect_draw.contains(mouse) and mouse.getPressed()[0] == True:&amp;#10;    if mouse_clicked == False:&amp;#10;        mouse_clicked = True&amp;#10;        if beadnum == 10:&amp;#10;            beadnum = 11&amp;#10;            continueRoutine = False&amp;#10;        else:&amp;#10;            beads[beadnum].setColor(beadcolours[beadnum])&amp;#10;            beadnum += 1&amp;#10;else:&amp;#10;    mouse_clicked = False&amp;#10;&amp;#10;if rect_decide.contains(mouse) and mouse.getPressed()[0] == True:&amp;#10;    select_decide = Truebead" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="// first bead appears right away&amp;#10;if(beadnum == 0)&amp;#10;{&amp;#10;    beads[5].setFillColor(new util.Color(beadcolours[1]));&amp;#10;    beadnum += 1;&amp;#10;}&amp;#10;&amp;#10;// modify slider marker and colour&amp;#10;if (!rating_is_initialized &amp;&amp; rating.status === STARTED){&amp;#10;    try {&amp;#10;        rating._skin.STANDARD.MARKER_COLOR = col;&amp;#10;        rating._skin.MARKER_SIZE = [0.05, 0.05];&amp;#10;        rating._onChange(true)();&amp;#10;        //rating._setupSlider();&amp;#10;    }&amp;#10;    catch (err) {}&amp;#10;    rating_is_initialized  = true;&amp;#10;}&amp;#10;&amp;#10;// display rating value&amp;#10;if (rating.markerPos !== 0 &amp;&amp; rating.markerPos !== undefined) {&amp;#10;    rating_value.text = Math.round(rating.markerPos);&amp;#10;}&amp;#10;&amp;#10;// show jar selection&amp;#10;if (select_decide === true &amp;&amp; ratingdone === false &amp;&amp; (mouse.getPressed()[0] === 1 &amp;&amp; jarA.contains(mouse))) {&amp;#10;    decision_jar = &quot;jarA&quot;;&amp;#10;    ratingstart = true;&amp;#10;}&amp;#10;if (select_decide === true &amp;&amp; ratingdone === false &amp;&amp; (mouse.getPressed()[0] === 1 &amp;&amp; jarB.contains(mouse))) {&amp;#10;    decision_jar = &quot;jarB&quot;;&amp;#10;    ratingstart = true;&amp;#10;}&amp;#10;&amp;#10;// As soon as the rating of the confidence is done, the participants can no longer change the selected jar&amp;#10;if (rating.getRating() !== undefined){&amp;#10;    if(decision_jar !== &quot;&quot;)&amp;#10;    {&amp;#10;        ratingdone = true;&amp;#10;     }&amp;#10;//    else&amp;#10;//    {&amp;#10;//        ratingstart = false;&amp;#10;//        thisExp.addData(&quot;rating_draw&quot;, rating.getRating());&amp;#10;//        rating.reset();&amp;#10;//        ratingdone = true;     }&amp;#10;}&amp;#10;&amp;#10;if (ratingstart === true &amp;&amp; decision_jar === &quot;&quot; &amp;&amp; (rating.getRating() !== undefined) &amp;&amp; (trialClock.getTime() &gt; (rating.getRT() + 1)) &amp;&amp; rating.getRating() === rating.markerPos) {&amp;#10;    ratingstart = false;&amp;#10;//    thisExp.addData(&quot;rating_draw&quot;, rating.getRating());&amp;#10;    confidenceRatings.push(rating.getRating());&amp;#10;    rating.reset();&amp;#10;//    rating.setOpacity(0.0);&amp;#10;}&amp;#10;&amp;#10;// move to next trial after rating + 1 second (allow for change in ratings within 1 second)&amp;#10;if (decision_jar !== &quot;&quot; &amp;&amp; (rating.getRating() !== undefined) &amp;&amp; (trialClock.getTime() &gt; (rating.getRT() + 1)) &amp;&amp; rating.getRating() === rating.markerPos) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;&amp;#10;if (!ratingstart) {&amp;#10;//    HighlightRect(rect_draw, rect_decide, text_draw, text_decide, mouse);&amp;#10;    rating.reset();&amp;#10;    rating.markerPos = 0;&amp;#10;    rect_draw.setOpacity(1.0);&amp;#10;    text_draw.setOpacity(1.0);&amp;#10;    rect_decide.setOpacity(1.0);&amp;#10;    text_decide.setOpacity(1.0);&amp;#10;    rating.setOpacity(0.0);&amp;#10;    ratingtext.setOpacity(0.0);&amp;#10;    scaletext.setOpacity(0.0);&amp;#10;    rating_value.setOpacity(0.0);&amp;#10;    rating_value.text = &quot;0&quot;;&amp;#10;} else&amp;#10;{&amp;#10;    rect_draw.setOpacity(0.0);&amp;#10;    text_draw.setOpacity(0.0);&amp;#10;    rect_decide.setOpacity(0.0);&amp;#10;    text_decide.setOpacity(0.0);&amp;#10;//    rating.setOpacity(1.0);&amp;#10;    ratingtext.setOpacity(1.0);&amp;#10;    scaletext.setOpacity(1.0);&amp;#10;    rating_value.setOpacity(1.0);&amp;#10;&amp;#10;}&amp;#10;&amp;#10;//Change the color of highlighed rect&amp;#10;function HighlightRect(rec1, rec2, txt_rec1, txt_rec2, mouse) {&amp;#10;    if(rec1.opacity !== 0.0)&amp;#10;    {&amp;#10;         if (rec1.contains(mouse)) {&amp;#10;            rec1.setOpacity(0.99);&amp;#10;            txt_rec1.setOpacity(2);&amp;#10;         } &amp;#10;        else{&amp;#10;            rec1.setOpacity(0.73);&amp;#10;            txt_rec1.setOpacity(0.73);&amp;#10;        }&amp;#10;         if (rec2.contains(mouse)) {&amp;#10;            rec2.setOpacity(0.99);&amp;#10;            txt_rec2.setOpacity(2);&amp;#10;         } &amp;#10;        else{&amp;#10;            rec2.setOpacity(0.73);&amp;#10;            txt_rec2.setOpacity(0.73);&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;//Change the color of highlighed rect. We won't highligh if participant can not rate anymore &amp;#10;function HighlightRect(rec1, rec2, txt_rec1, txt_rec2, mouse, ratingdone) {&amp;#10;    if (!ratingdone &amp;&amp; rec1.opacity !== 0){&amp;#10;         if (rec1.contains(mouse)) {&amp;#10;            rec1.setOpacity(0.99);&amp;#10;            txt_rec1.setOpacity(2);&amp;#10;         } &amp;#10;        else{&amp;#10;            rec1.setOpacity(0.73);&amp;#10;            txt_rec1.setOpacity(0.73);&amp;#10;        }&amp;#10;         if (rec2.contains(mouse)) {&amp;#10;            rec2.setOpacity(0.99);&amp;#10;            txt_rec2.setOpacity(2);&amp;#10;         } &amp;#10;        else{&amp;#10;            rec2.setOpacity(0.73);&amp;#10;            txt_rec2.setOpacity(0.73);&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;if(select_decide === true)&amp;#10;{&amp;#10;    if(decision_jar === &quot;&quot;)&amp;#10;    {&amp;#10;            rating.setOpacity(0.0);&amp;#10;            ratingtext.setOpacity(0.0);&amp;#10;    }&amp;#10;    else&amp;#10;    {&amp;#10;            rating.setOpacity(1.0);&amp;#10;            ratingtext.setOpacity(1.0);&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;//Perform actions depending on clicked button (DRAW/DECIDE)&amp;#10;function SelectChoice(rec1, rec2, mouse){&amp;#10;    if (select_decide !== true &amp;&amp; rec1.contains(mouse) &amp;&amp; mouse.getPressed()[0] === 1 &amp;&amp; rec1.opacity !== 0) {&amp;#10;         if ((! mouse_clicked)) &amp;#10;         {&amp;#10;            mouse_clicked = true;&amp;#10;            if ((beadnum === 10))&amp;#10;            {&amp;#10;                beadnum = 11;&amp;#10;                continueRoutine = false;&amp;#10;            }&amp;#10;            else if((!jiggleActive) &amp;&amp; (beadnum &lt; beads.length))&amp;#10;            {&amp;#10;                jiggleActive = true;&amp;#10;                jiggleIndex = 0;&amp;#10;                jiggleFrames = 0;&amp;#10;                finalColor = beadcolours[beadnum];  // assumed to be [r, g, b]&amp;#10;//                beads[beadnum].setFillColor(finalColor, &quot;rgb&quot;);&amp;#10;//                beadnum += 1;&amp;#10;            }&amp;#10;         }&amp;#10;    }&amp;#10;    else {&amp;#10;            mouse_clicked = false;&amp;#10;    }&amp;#10;    &amp;#10;    if (rec2.contains(mouse) &amp;&amp; mouse.getPressed()[0] === 1 &amp;&amp; jiggleActive == false) {&amp;#10;       select_decide = true;&amp;#10;//       ratingstart = true;&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;if(select_decide === true)&amp;#10;{&amp;#10;   ratingtext.setOpacity(1.0);&amp;#10;}&amp;#10;&amp;#10;if (jiggleActive &amp;&amp; (beadnum &lt; beads.length))&amp;#10;{&amp;#10;     if (jiggleFrames &lt; jiggleDuration) {&amp;#10;        // Make the bead transparent&amp;#10;        beads[5].setOpacity(0.0);&amp;#10;        jiggleFrames += 1;&amp;#10;    } &amp;#10;    else {&amp;#10;        // Show final color with full opacity&amp;#10;        beads[5].setFillColor(finalColor, &quot;rgb&quot;);&amp;#10;        beads[5].setOpacity(1.0);&amp;#10;        jiggleActive = false;&amp;#10;        beadnum += 1;&amp;#10;        ratingstart = true;&amp;#10;        rating.setOpacity(1.0);&amp;#10;        scaletext.setOpacity(1.0);&amp;#10;//        rating.setOpacity(1.0);&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;Score.text = &quot;Beads Drawn: &quot; + beadnum;&amp;#10;HighlightRect(rect_draw, rect_decide, text_draw, text_decide, mouse);&amp;#10;HighlightRect(jarA, jarB, jarAtext, jarBtext, mouse, ratingdone);&amp;#10;SelectChoice(rect_draw, rect_decide, mouse);" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="document.removeEventListener(&quot;contextmenu&quot;, preventClick, event, false);" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="if(rating.reponse){&amp;#10;    rating.response = parseFloat(rating.response);&amp;#10;}&amp;#10;&amp;#10;if(decision_jar == true_jar &amp;&amp; count != 1)&amp;#10;{&amp;#10;    score += 10-beadnum;&amp;#10;}&amp;#10;thisExp.addData(&quot;DTD&quot;, beadnum);&amp;#10;//thisExp.addData(&quot;Score&quot;, score);&amp;#10;thisExp.addData(&quot;Arand&quot;, [A_R,A_G,A_B]);&amp;#10;thisExp.addData(&quot;Brand&quot;, [B_R,B_G,B_B]);&amp;#10;thisExp.addData(&quot;Decision_jar&quot;, decision_jar);&amp;#10;thisExp.addData(&quot;True_jar&quot;, true_jar);&amp;#10;thisExp.addData('confidence_list', confidenceRatings.join(',')); // store as comma-separated string&amp;#10;thisExp.addData(&quot;Match&quot;, decision_jar===true_jar ? 1 : 0);&amp;#10;thisExp.addData('currentTrial', currentTrial);&amp;#10;currentTrial = currentTrial + 1;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="thisExp.addData('DTD', beadnum)&amp;#10;thisExp.addData('Arand', [A_R,A_G,A_B])&amp;#10;thisExp.addData('Brand', [B_R,B_G,B_B])&amp;#10;thisExp.addData(&quot;Decision_jar&quot;, decision_jar)&amp;#10;thisExp.addData(&quot;True_jar&quot;, true_jar)&amp;#10;if decision_jar == true_jar:&amp;#10;    thisExp.addData(&quot;Match&quot;, 1)&amp;#10;else:&amp;#10;    thisExp.addData(&quot;Match&quot;, 0)&amp;#10;thisExp.addData('currentTrial', currentTrial)&amp;#10;currentTrial = currentTrial + 1" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="beadsimg1" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$jarpic" valType="str" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="beadsimg1" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0.275)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="[0.49,0.27]" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="beadstxtA" plugin="None">
+        <Param val="black" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.02" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="beadstxtA" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(-0.137, 0.115)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="beadstxtB" plugin="None">
+        <Param val="$[-1,-1,-1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.02" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="beadstxtB" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0.135, 0.115)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse" plugin="None">
+        <Param val="jarA,jarB,rect_draw,rect_decide" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="never" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name" valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="routine" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <PolygonComponent name="bead1" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead1" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(-0.675,0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead2" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(-0.525,0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead3" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(-0.375,0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead4" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead4" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(-0.225, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead5" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead5" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(-0.075, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead6" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead6" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0.0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead7" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead7" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0.225, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead8" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead8" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0.375, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead9" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead9" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0.525, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="bead10" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[0,0,0]" valType="str" updates="set every repeat" name="fillColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="fillColorSpace"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="lineColor"/>
+        <Param val="rgb" valType="str" updates="constant" name="lineColorSpace"/>
+        <Param val="0" valType="code" updates="constant" name="lineWidth"/>
+        <Param val="100" valType="int" updates="constant" name="nVertices"/>
+        <Param val="bead10" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0.675, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="regular polygon..." valType="str" updates="constant" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="ratingtext" plugin="None">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="ratingtext" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$select_decide == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="From which jar were the beads drawn?" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="jarA" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="button.png" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="jarA" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(-0.15, -0.17)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.17, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$select_decide == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="jarB" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="button.png" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="jarB" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0.15, -0.17)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$select_decide == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="jarAtext" plugin="None">
+        <Param val="$[-1,-1,-1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="jarAtext" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="jarA.pos" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$select_decide == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="JAR A" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="jarBtext" plugin="None">
+        <Param val="$[-1,-1,-1]" valType="str" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="jarBtext" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="jarB.pos" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$select_decide == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="JAR B" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="scaletext" plugin="None">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="scaletext" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -0.28)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$ratingstart == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Please indicate your degree of confidence:" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="rating" plugin="None">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="black" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="code" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="'0','100'" valType="list" updates="constant" name="labels"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="rating" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1,0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$ratingstart == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="['rating']" valType="fixedList" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(0,100)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </SliderComponent>
+      <TextComponent name="rating_value" plugin="None">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="rating_value" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -0.425)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$ratingstart == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="extendedStr" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="rect_draw" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="button.png" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="rect_draw" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -0.17)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.35, 0.07)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="$select_decide == 1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="rect_decide" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="button.png" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="rect_decide" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, -0.28)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.35, 0.07)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="$select_decide == 1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="text_draw" plugin="None">
+        <Param val="$[-1,-1,-1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_draw" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="rect_draw.pos" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="$select_decide == 1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="DRAW" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_decide" plugin="None">
+        <Param val="$[-1,-1,-1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_decide" valType="code" updates="None" name="name"/>
+        <Param val="0.73" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="rect_decide.pos" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="$select_decide == 1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="DECIDE" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="Score" plugin="None">
+        <Param val="green" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="Score" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="0.7,0.8" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="bye&amp;#10;" valType="str" updates="set every repeat" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="lang"/>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_3">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('set', 'T1'), ('A_R', -1), ('A_G', -1), ('A_B', 0.09), ('B_R', 0), ('B_G', -1), ('B_B', -1), ('jarPicture', 'stimuli/BR3.png'), ('colorSequence', 'AABABABBAA'), ('txt_1', '60% blue'), ('txt_2', '40% red'), ('txt_3', '60% red'), ('txt_4', '40% blue')]), OrderedDict([('set', 'T2'), ('A_R', 1), ('A_G', 1), ('A_B', -1.0), ('B_R', 0), ('B_G', -1), ('B_B', -1), ('jarPicture', 'stimuli/YR3.png'), ('colorSequence', 'BAABABABAA'), ('txt_1', '60% yellow'), ('txt_2', '40% red'), ('txt_3', '60% red'), ('txt_4', '40% yellow')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="beadsTaskConditions_num_en1_trial.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="2" valType="num"/>
+      <Param name="name" updates="None" val="trials_3" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="iti"/>
+    <LoopTerminator name="trials_3"/>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$trialConditions" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="iti"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('set', 'set10'), ('A_R', -1), ('A_G', -1), ('A_B', 0.09), ('B_R', 0), ('B_G', -1), ('B_B', -1.0), ('jarPicture', 'stimuli/BR3.png'), ('colorSequence', 'AABAAABBBA'), ('txt_1', '60% blue'), ('txt_2', '40% red'), ('txt_3', '60% red'), ('txt_4', '40% blue')]), OrderedDict([('set', 'set11'), ('A_R', 1), ('A_G', 1), ('A_B', -1.0), ('B_R', 0), ('B_G', -1), ('B_B', -1.0), ('jarPicture', 'stimuli/YR3.png'), ('colorSequence', 'BAABABABAA'), ('txt_1', '60% yellow'), ('txt_2', '40% red'), ('txt_3', '60% red'), ('txt_4', '40% yellow')]), OrderedDict([('set', 'set12'), ('A_R', -1), ('A_G', 1), ('A_B', -1.0), ('B_R', -1), ('B_G', -1), ('B_B', 0.09), ('jarPicture', 'stimuli/GB4.png'), ('colorSequence', 'BAAAABABBA'), ('txt_1', '60% green'), ('txt_2', '40% blue'), ('txt_3', '60% blue'), ('txt_4', '40% green')]), OrderedDict([('set', 'set13'), ('A_R', 0), ('A_G', -1), ('A_B', -1.0), ('B_R', -1), ('B_G', 1), ('B_B', -1.0), ('jarPicture', 'stimuli/RG3.png'), ('colorSequence', 'ABBAABBAAA'), ('txt_1', '60% red'), ('txt_2', '40% green'), ('txt_3', '60% green'), ('txt_4', '40% red')]), OrderedDict([('set', 'set14'), ('A_R', 1), ('A_G', 1), ('A_B', -1.0), ('B_R', 0), ('B_G', -1), ('B_B', -1.0), ('jarPicture', 'stimuli/YR4.png'), ('colorSequence', 'BAAABABABA'), ('txt_1', '60% yellow'), ('txt_2', '40% red'), ('txt_3', '60% red'), ('txt_4', '40% yellow')]), OrderedDict([('set', 'set15'), ('A_R', -1), ('A_G', 1), ('A_B', -1.0), ('B_R', -1), ('B_G', -1), ('B_B', 0.09), ('jarPicture', 'stimuli/GB4.png'), ('colorSequence', 'ABBABAAABA'), ('txt_1', '60% green'), ('txt_2', '40% blue'), ('txt_3', '60% blue'), ('txt_4', '40% green')]), OrderedDict([('set', 'set16'), ('A_R', -1), ('A_G', 1), ('A_B', -1.0), ('B_R', -1), ('B_G', -1), ('B_B', 0.09), ('jarPicture', 'stimuli/GB3.png'), ('colorSequence', 'AABBAABAAB'), ('txt_1', '60% green'), ('txt_2', '40% blue'), ('txt_3', '60% blue'), ('txt_4', '40% green')]), OrderedDict([('set', 'set17'), ('A_R', 0), ('A_G', -1), ('A_B', -1.0), ('B_R', -1), ('B_G', 1), ('B_B', -1.0), ('jarPicture', 'stimuli/RG4.png'), ('colorSequence', 'ABABAAAABB'), ('txt_1', '60% red'), ('txt_2', '40% green'), ('txt_3', '60% green'), ('txt_4', '40% red')]), OrderedDict([('set', 'set18'), ('A_R', -1), ('A_G', 1), ('A_B', -1.0), ('B_R', 1), ('B_G', 1), ('B_B', -1.0), ('jarPicture', 'stimuli/GY3.png'), ('colorSequence', 'AABBABABAA'), ('txt_1', '60% green'), ('txt_2', '40% yellow'), ('txt_3', '60% yellow'), ('txt_4', '40% green')]), OrderedDict([('set', 'set19'), ('A_R', 1), ('A_G', 1), ('A_B', -1.0), ('B_R', -1), ('B_G', -1), ('B_B', 0.09), ('jarPicture', 'stimuli/YB4.png'), ('colorSequence', 'BAAABABBAA'), ('txt_1', '60% yellow'), ('txt_2', '40% blue'), ('txt_3', '60% blue'), ('txt_4', '40% yellow')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="beadsTaskConditions_num_en1.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="iti"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>
